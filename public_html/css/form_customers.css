@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: #34495e;
+}
+/* edit create */
+.boxtambah{
+    width: 500px;
+    padding: 40px;
+    position: relative;
+    margin-top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    background: #000000;
+    text-align: center;
+    border-style: groove;
+    border-color: #0099ff;
+}
+.boxedit{
+    width: 490px;
+    padding: 40px;
+    position: relative;
+    margin-top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+    background: #000000;
+    text-align: center;
+    border-style: groove;
+    border-color: #0099ff;
+}
+/* display */
+.boxdisplay{
+  width: 1500px;
+  padding: 50px;
+  position: relative;
+  margin-top: 50px;
+  left: 50%;
+  transform: translate(-50%);
+  background: #000000;
+  text-align: center;
+  border-style: groove;
+  border-color: #0099ff;
+}
+/* title */
+.dc{
+    font-family: Gill Sans;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+tr{
+  font-family: Gill Sans;
+    color: white;
+}
+/* nama form */
+label{
+  font-family: Gill Sans;
+  color: white;
+  text-align: center;
+}
+/* inputan form */
+.form-group input[type = "text"],.box input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #0099ff;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.50s;
+}
+.form-group input[type = "text"]:focus,.box input[type = "password"]:focus{
+  width: 280px;
+  border-color: #00ff6a;
+}
+.tb{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #21cf69;
+  padding: 10px;
+  width: 240px;
+  outline: none;
+  color: white;
+  border-radius: 25px;
+  transition: 0.50s;
+  cursor: pointer;
+  font-size: 20px;
+}
+.tb:hover{
+  background: #21cf69;
+  color: white;
+}
